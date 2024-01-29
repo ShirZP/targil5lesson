@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="slowImage.jpeg" />
+    <None Remove="רכב.gif" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="slowImage.jpeg" />
+    <Resource Include="רכב.gif" />
+  </ItemGroup>
+
+</Project>
